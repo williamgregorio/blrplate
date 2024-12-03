@@ -2,9 +2,8 @@
 
 This is a easy to use CLI tool, to quicky create a Shopify Online Store 2.0 boilerplate.
 
-
-
-## **Theme directory structure**: These are the basic planning to give the user when creating one, aka bare bones but enought to influence it with your own ideas.
+## **Theme directory structure**:
+These are the basic planning to give the user when creating one, aka bare bones but enought to influence it with your own ideas.
 
 ### **`assets/`**
 - Stores scripts, styles, and images.
