@@ -1,15 +1,23 @@
 # blrplate
 
-This is an easy to use CLI tool, to quicky and effectively create a Shopify Online Store 2.0 boilerplate.
+This is an easy to use CLI tool, that will quicky and effectively create a Shopify Online Store 2.0 boilerplate in the directory it was called at.
 
-### Planned usage:
+## **Getting started**:
+```bash
+npm i -g blrplate
+```
+
+### **Usage**:
+Use it when you are in your new theme directory.
 ```bash
 blrplate create
 ```
-**Returns a valid Shopify theme structure for the developer to add on and make it their own**
+**Preview**:
+
+Returns a valid Shopify theme structure for the developer to add on and make it their own.
 
 ## **Theme directory structure**:
-These are the basic planning to give the user when creating one, aka bare bones but enought to influence it with your own ideas.
+These are the basic plans to give the user when creating one, aka bare bones but enought to influence it with your own ideas.
 
 ### **`assets/`**
 - Stores scripts, styles, and images.
