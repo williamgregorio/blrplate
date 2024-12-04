@@ -2,8 +2,8 @@
 
 const { Command } = require('commander');
 const path = require('path');
-const { createThemeDirectories } = require('../createDirectories');
-const { initThemeConfig } = require('../initThemeConfig');
+const { createThemeDirectories } = require('../lib/createDirectories.js');
+const { initThemeConfig } = require('../lib/initThemeConfig.js');
 
 const program = new Command();
 
