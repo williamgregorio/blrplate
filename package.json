@@ -1,6 +1,6 @@
 {
   "name": "blrplate",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Lean Shopify Online Store 2.0 theme directory structure boilerplate.",
   "bin": {
     "blrplate": "./bin/blrplate.js"
