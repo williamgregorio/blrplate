@@ -14,6 +14,8 @@ blrplate create
 ```
 **Preview**:
 
+![](https://github.com/williamgregorio/blrplate/blob/dev/assets/blrplate-preview.gif)
+
 Returns a valid Shopify theme structure for the developer to add on and make it their own.
 
 ## **Theme directory structure**:
