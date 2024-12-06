@@ -2,6 +2,10 @@
 
 This is an easy to use CLI tool, that will create a Shopify Online Store 2.0 boilerplate in the directory it was called at.
 
+## **Try out boilerplate**:
+https://blrplate.myshopify.com/
+
+Password: blrplate
 ## **Getting started**:
 ```bash
 npm i -g blrplate
