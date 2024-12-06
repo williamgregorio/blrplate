@@ -1,6 +1,6 @@
 # blrplate
 
-This is an easy to use CLI tool, that will quicky and effectively create a Shopify Online Store 2.0 boilerplate in the directory it was called at.
+This is an easy to use CLI tool, that will create a Shopify Online Store 2.0 boilerplate in the directory it was called at.
 
 ## **Getting started**:
 ```bash
@@ -8,7 +8,6 @@ npm i -g blrplate
 ```
 
 ### **Usage**:
-Use it when you are in your new theme directory.
 ```bash
 blrplate create
 ```
@@ -16,64 +15,80 @@ blrplate create
 
 ![](https://github.com/williamgregorio/blrplate/blob/dev/assets/blrplate-preview.gif)
 
-Returns a valid Shopify theme structure for the developer to add on and make it their own.
+Returns a valid Shopify theme structure for the developer.
 
 ## **Theme directory structure**:
-These are the basic plans to give the user when creating one, aka bare bones but enought to influence it with your own ideas.
-
 ### **`assets/`**
 - Stores scripts, styles, and images.
-  - `reset.css` - Resets browser-specific styles for a neutral starting point.
-  - `theme.js` - Handles basic interactivity for the theme.
-  - `favicon.ico` - Favicon.
+  - `reset.css` 
+  - `theme.js` 
+  - `favicon.ico` 
 ---
 
 ### **`config/`**
 - Manages theme settings.
-  - `settings_schema.json` - Allows customization through the Shopify admin.
-  - `settings_data.json` - Saves the selected options from the theme editor.
+  - `settings_schema.json` 
+  - `settings_data.json` 
 ---
 
 ### **`layout/`**
 - Defines the overall structure of pages.
-  - `theme.liquid` - Core layout for general pages (header, footer, content).
-  - `password.liquid` - Password-protected store layout for pre-launch.
+  - `theme.liquid`
+  - `password.liquid` 
 ---
 
 ### **`locales/`**
 - Enables localization and translations.
-  - `en.default.json` - Base translation file.
+  - `en.default.json` 
 ---
 
 ### **`sections/`**
 - Modular content blocks.
-  - `header.liquid` - Header with navigation and search.
-  - `footer.liquid` - Footer with links and credits.
-  - `main-product.liquid` - Product page section for displaying product details.
+  - **contact-form.liquid**
+  - **featured-collection.liquid**
+  - **footer.liquid**
+  - **header.liquid**
+  - **store-name.liquid**
+  - **404.liquid**
+  - **article.liquid**
+  - **blog.liquid**
+  - **cart.liquid**
+  - **collection.liquid**
+  - **customer-login.liquid**
+  - **customer-register.liquid**
+  - **list-collections.liquid**
+  - **page.contact.liquid**
+  - **page.liquid**
+  - **product.liquid**
+  - **reset-password.liquid**
+  - **search.liquid**
 ---
 
 ### **`snippets/`**
 - Reusable components for common features.
-  - `product-card.liquid` - Renders products in a collection grid.
-  - `cart-items.liquid` - Displays cart items dynamically.
-  - `checkout-button.liquid` - Button to proceed to checkout.
+  - `meta-tags.liquid` 
+  - `pagination.liquid` 
+  - `product-card.liquid` 
+  - `product-media.liquid` 
 ---
 
 ### **`templates/`**
 - Defines the structure for specific pages.
-  - `index.liquid` - Homepage template.
-  - `product.liquid` - Product details page template.
-  - `collection.liquid` - Collection (category) template.
-  - `cart.liquid` - Cart page for reviewing items.
-  - `blog.liquid` - Blog overview page.
-  - `article.liquid` - Blog article page.
-  - `search.liquid` - Search results page.
+  - `404.json` 
+  - `article.json` 
+  - `blog.json` 
+  - `cart.json` 
+  - `collection.json` 
+  - `index.json` 
+  - `list-collections.json` 
+  - `page.contact.json` 
+  - `page.json` 
+  - `product.json` 
+  - `search.json` 
 
 #### **`templates/customers/`**
 - Manages customer account-related pages.
-  - `login.liquid` - Login page for customers.
-  - `register.liquid` - Customer registration page.
-  - `account.liquid` - Customer account dashboard.
-  - `order.liquid` - Order history page.
-
+  - `login.json` 
+  - `register.json` 
+  - `reset_password.json` 
 ---
